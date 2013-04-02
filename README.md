@@ -1,4 +1,4 @@
 HelloWeather
 ============
 
-Simple weather app
+Simple Android weather app
