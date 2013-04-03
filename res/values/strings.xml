@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloWeather</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="choose_location">Choose location</string>
+    <string name="city_state_country">City, state, country</string>
+    <string name="search">Search</string>
+
+</resources>
