@@ -18,34 +18,27 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/searchButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText1"
-        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignBaseline="@+id/searchInput"
+        android:layout_alignBottom="@+id/searchInput"
         android:layout_alignParentRight="true"
-        android:text="@string/search" />
+        android:text="@string/search"
+        android:onClick="searchLocation" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/searchInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
-        android:layout_toLeftOf="@+id/button1"
+        android:layout_toLeftOf="@+id/searchButton"
         android:ems="10"
         android:hint="@string/city_state_country" >
 
         <requestFocus />
     </EditText>
-
-    <ProgressBar
-        android:id="@+id/progressBar1"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
 
 </RelativeLayout>
